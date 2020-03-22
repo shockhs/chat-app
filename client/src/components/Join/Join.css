@@ -1,0 +1,121 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: url("../../images/space.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  background: -webkit-linear-gradient(white, #2600ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.joinOuterContainer {
+  background: url("../../images/space.jpg") no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1a1a1d;
+}
+
+.joinInnerContainer {
+  width: 385px;
+}
+
+.errorElement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f83200;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  border-radius: 0;
+  height: 40px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979ff;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+  .joinInnerContainer {
+    width: 90%;
+  }
+  button:focus {
+    outline: 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .joinOuterContainer {
+    height: 100vh;
+  }
+  input[type="text"] {
+    border-radius: 0;
+    height: 40px;
+    padding-left: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=Join.css.map */
